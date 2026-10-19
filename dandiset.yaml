@@ -32,8 +32,8 @@ assetsSummary:
   variableMeasured:
   - Units
 citation: Thompson, Lowell; Joshi, Siddhartha; Gold, Joshua I. (2026) Locus coeruleus
-  and pupil data supporting Thompson et al., 202 (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/002034/draft
+  and pupil data supporting Thompson et al., 202 (Version 0.261019.2146) [Data set].
+  DANDI Archive. https://doi.org/10.48324/dandi.002034/0.261019.2146
 contributor:
 - affiliation:
   - identifier: https://ror.org/00b30xv10
@@ -78,12 +78,14 @@ contributor:
   - dcite:Visualization
   schemaKey: Person
 dateCreated: '2026-10-19T17:03:09.562458+00:00'
+datePublished: '2026-10-19T21:46:44.496806+00:00'
 description: Cleaned, trial-delimited data for Thompson et al 2026 figure and stats
   regeneration.
+doi: 10.48324/dandi.002034/0.261019.2146
 ethicsApproval:
 - identifier: '803740'
   schemaKey: EthicsApproval
-id: DANDI:002034/draft
+id: DANDI:002034/0.261019.2146
 identifier: DANDI:002034
 keywords:
 - locus coeruleus
@@ -91,8 +93,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002034/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002034/0.261019.2146/assets.yaml
 name: Locus coeruleus and pupil data supporting Thompson et al., 202
+publishedBy:
+  endDate: '2026-10-19T21:46:44.496806+00:00'
+  id: urn:uuid:f3b984c1-a026-4691-a7bb-37b2640b8128
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-19T21:46:44.496806+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b21a15f4-c3e7-4995-9ede-f7c2e2b364ab
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Thompson2026_LCPupilAnalysis
   relation: dcite:IsReferencedBy
@@ -107,11 +121,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://doi.org/10.7554/eLife.112525
+releaseNotes: Initial release of nwb-transformed data supporting the Thompson et al.,
+  2026 preprint.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
 - Relationships between locus coeruleus activity and pupil size
-url: https://dandiarchive.org/dandiset/002034/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002034/0.261019.2146
+version: 0.261019.2146
 wasGeneratedBy: []
