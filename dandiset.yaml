@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -23,15 +24,23 @@ contributor:
 dateCreated: '2026-10-19T17:03:09.562458+00:00'
 description: Cleaned, trial-delimited data for Thompson et al 2026 figure and stats
   regeneration.
+ethicsApproval: []
 id: DANDI:002034/draft
 identifier: DANDI:002034
+keywords:
+- locus coeruleus
+- pupil
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002034/versions/draft/assets/
 name: Limitations of pupil diameter as a proxy for modes of locus coeruleus activity
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- Relationships between locus coeruleus activity and pupil size
 url: https://dandiarchive.org/dandiset/002034/draft
 version: draft
+wasGeneratedBy: []
